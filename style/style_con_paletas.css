@@ -1,0 +1,35 @@
+/* OPCIÓN 1: Usando secondaryBackgroundColor (Recomendado) */
+.stMainBlockContainer.block-container > div > div:not(:nth-child(1)):not(:nth-child(2)) > div {
+    background-color: #FFFFFF !important;  /* secondaryBackgroundColor - Elegante Monocromática */
+    border-radius: 12px !important;
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* OPCIÓN 2: Si quieres un color más sutil */
+.stMainBlockContainer.block-container > div > div:not(:nth-child(1)):not(:nth-child(2)) > div {
+    background-color: #FAFAFA !important;  /* backgroundColor - Elegante Monocromática */
+    border-radius: 12px !important;
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* OPCIÓN 3: Para paleta Cálida Profesional */
+.stMainBlockContainer.block-container > div > div:not(:nth-child(1)):not(:nth-child(2)) > div {
+    background-color: #F8F6F3 !important;  /* backgroundColor - Cálida */
+    border-radius: 12px !important;
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* RESETEAR el contenedor externo */
+.stMainBlockContainer.block-container > div > div:not(:nth-child(1)):not(:nth-child(2)) {
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}

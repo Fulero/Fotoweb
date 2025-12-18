@@ -1,8 +1,2 @@
 streamlit
-PIL
-io
-threading
-concurrent.futures
-time
-pathlib
-hashlib
+Pillow
